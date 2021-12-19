@@ -1,0 +1,101 @@
+# App Info
+ios_app_id                                : 1598011148                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :  "https://play.google.com/store/apps/details?id=com.rGyani.bubbles"                                         # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/bubbles.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : "Bubbles: Learn a Language"                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : "Bubbles helps you achieve your language learning goals, with an efficient approach by mastering the vocabulary, using interesting puzzles"
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Ravi Gyani
+your_link                                 : https://rgyani.github.io/
+your_city                                 : Munich, DE
+email_address                             : ravigyani.games@gmail.com
+facebook_username                         : ravigyani
+instagram_username                        :
+twitter_username                          : rgyani
+github_username                           : rgyani
+youtube_username                          :
+
+
+features                                  :
+
+  - title                                 : Learn German, French, Hindi and/or Kannada,
+    description                           : in just 5 minutes daily, no more excuses
+    fontawesome_icon_name                 : calendar-day
+
+  - title                                 : Bubbles is the new and fun way to learn languages,
+    description                           : by using beautifully designed word games to make your learning journey fun
+    fontawesome_icon_name                 : play
+
+  - title                                 : Once you have learnt the 500 most relevant words in a new language,
+    description                           : you will be able to understand close to half the words in a typical text
+    fontawesome_icon_name                 : battery-quarter
+
+  - title                                 : As your vocabulary expands to 1500 words,
+    description                           : you will be able to understand upto 70% of all commonly used words in conversations, news and TV Shows.
+    fontawesome_icon_name                 : trophy
+
+  - title                                 : When you reach the 3000 words mark,
+    description                           : you will be able to understand 8 out of every 10 words when conversing with a native speaker.
+    fontawesome_icon_name                 : users
+
+  - title                                 : Reaching a working vocabulary of over 5000 words,
+    description                           : will give you an optimal springboard to build fluency fast
+    fontawesome_icon_name                 : door-open
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               :                     # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#fff"
+cover_overlay_transparency                : 0.0
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#fff"
+
+link_color                                : "#3DB39E"
+
+app_title_color                           : "#000"
+app_price_color                           : "#666"
+app_description_color                     : "#121212"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#3DB39E"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+baseurl: /
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
